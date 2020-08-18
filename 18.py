@@ -17,6 +17,8 @@ while count<=10:
 C=-40
 
 while C<=40:
+    print(C)
+    C = C + 5
     F=((9/5)*C)+32
     print(C, 'Celcius in Fahreheit',F)
     C = C + 5
