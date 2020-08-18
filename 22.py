@@ -27,3 +27,8 @@ grey_img_cv2 = cv2.imread('images/Osteosarcoma_01.tif',0)
 color_img_cv2 = cv2.imread('images/Osteosarcoma_01.tif',1)
 
 img_opencv = cv2.cvtColor(color_img_cv2,cv2.COLOR_BGR2RGB)
+
+from matplotlib import pyplot as plt
+
+fig1=plt.imshow(grey_img_cv2)
+fig2=plt.imshow(color_img_cv2)
